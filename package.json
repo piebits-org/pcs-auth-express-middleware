@@ -1,0 +1,26 @@
+{
+  "name": "@piebits/pcs-auth-express-middleware",
+  "version": "0.1.0",
+  "description": "Express Middleware that validates Access Token And Returns User Data on Validation",
+  "main": "./src",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/piebits-org/pcs-auth-express-middleware.git"
+  },
+  "keywords": [
+    "pcs",
+    "piebits",
+    "pcs-auth",
+    "express-middleware",
+    "javascript"
+  ],
+  "author": "piebits",
+  "license": "Apache-2.0",
+  "bugs": {
+    "url": "https://github.com/piebits-org/pcs-auth-express-middleware/issues"
+  },
+  "homepage": "https://github.com/piebits-org/pcs-auth-express-middleware#readme",
+  "dependencies": {
+    "axios": "^0.21.0"
+  }
+}
