@@ -2,7 +2,7 @@ const axios = require('axios').default
 
 function validateAndGetUser(accessToken, pcsapp) {
   return new Promise((resolve, reject) => {
-    axios.get('http://localhost:4000/fetch/user', {
+    axios.get('https://authapi.cloudservices.piebits.org/fetch/user', {
       headers: {
         'Authorization': accessToken,
         'x-pcs-app': pcsapp,
